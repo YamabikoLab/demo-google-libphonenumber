@@ -1,0 +1,10 @@
+version: '3'
+services:
+  demo-google-libphonenumber:
+    container_name: react-hook-form-demo
+    image: node:18
+    tty: true
+    volumes:
+      - .:/home/node/app
+    ports:
+      - "5174:5173"
